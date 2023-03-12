@@ -1,0 +1,124 @@
+{
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "manager",
+      "name": "Manager"
+    },
+    {
+      "code": "supervisor",
+      "name": "Supervisor"
+    },
+    {
+      "code": "admin",
+      "name": "Admin"
+    }
+  ],
+  "user": [
+    {
+      "id": "vicky",
+      "name": "Victoria Nyirenda",
+      "email": "vicky@gmail.com",
+      "password": "vicky",
+      "mobile": "0970000000",
+      "address": "Lusaka",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "bertha",
+      "name": "Bertha Mtonga",
+      "email": "berthamtonga@gmail.com",
+      "password": "bertha",
+      "mobile": "0977360101",
+      "address": "Libala",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "lizzyb",
+      "name": "Elizabeth",
+      "email": "lizzyb@gmail.com",
+      "password": "lizzyb",
+      "mobile": "0981100110",
+      "address": "libala",
+      "role": "user",
+      "isActive": true
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Amos Nyirenda",
+      "area": "Libala South",
+      "creditLimit": "10500"
+    },
+    {
+      "id": 2,
+      "name": "Judith Nyirenda",
+      "area": "Libala South",
+      "creditLimit": 250000
+    },
+    {
+      "id": 3,
+      "name": "Catherine Nyirenda",
+      "area": "Lusaka",
+      "creditLimit": 10000
+    },
+    {
+      "id": 4,
+      "name": "Victoria Nyirenda",
+      "area": "Hilview",
+      "creditLimit": 6000
+    },
+    {
+      "id": 5,
+      "name": "Elizabeth Nyirenda",
+      "area": "Chalala",
+      "creditLimit": 500
+    },
+    {
+      "name": "Joseph Zulu",
+      "area": "Chilenje",
+      "creditLimit": "1000",
+      "id": 6
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "",
+      "menu": "",
+      "haveadd":"",
+      "haveedit":"",
+      "havedelete":""
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd":true,
+      "haveedit":true,
+      "havedelete":true
+    },{
+      "role": "admin",
+      "menu": "user",
+      "haveadd":true,
+      "haveedit":true,
+      "havedelete":true
+    },{
+      "role": "user",
+      "menu": "customer",
+      "haveadd":true,
+      "haveedit":true,
+      "havedelete":false
+    },{
+      "role": "supervisor",
+      "menu": "customer",
+      "haveadd":true,
+      "haveedit":true,
+      "havedelete":true
+    }
+]
+}
